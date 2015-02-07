@@ -1,0 +1,88 @@
+body {
+  padding-top: 51px;
+  background-color: #EDEDED;
+  padding-bottom: 90px;
+}
+.col-sm-6,.col-sm-4,.col-sm-3,.col-sm-2 {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .col-sm-2 {
+    width: 20%
+  }
+}
+img {
+  display: block;
+}
+.banner {
+  height:100%;
+  text-align: center;
+  background: url('http://dash.ga.co/assets/jeff-bg.png');
+  background-size: cover;
+  padding-top: 20px;
+  background-repeat: no-repeat;
+}
+.banner img {
+  margin: 0 auto;
+  border: 7px solid #fff;
+  border-radius: 20px;
+  max-width: 100%;
+}
+.feature {
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 70px;
+  color: #fff;
+  font-family: 'Ceviche One', cursive;
+}
+h2 {
+  font-family: 'Arbutus', cursive;
+  padding-bottom: 10px;
+  font-size: 70px;
+}
+
+ @media (max-width: 500px) {
+      h1,h2 {
+        font-size: 36px;
+      }
+     
+    }
+  .navbar-brand {
+    font-family: 'Mrs Sheppards', cursive;
+    letter-spacing: 5px;
+  }
+  .navbar-inverse .navbar-brand {
+    color: #FCFECF;
+  }
+  ul {
+    font-family: 'Arbutus', cursive;
+  }
+.feature img {
+  background: red;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s, height 2s, transform 2s;
+}
+.feature img:hover {
+  -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+  transform: rotate(360deg);
+}
+.footer {
+ width: 100%;
+ background-color: red;
+ overflow: hidden;
+ position: fixed-bottom;
+}
+.footer p {
+  padding: 10px;
+  text-align: center;
+  font-size: 36px;
+  color: #fff;
+  font-family: 'Ceviche One', cursive;
+}
+.portfolio p {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
